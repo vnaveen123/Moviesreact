@@ -1,0 +1,25 @@
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+.button {
+  border-width: 0px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 38px;
+}
+.contactus {
+  font-size: 38px;
+  text-align: center;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-top: 0px;
+}

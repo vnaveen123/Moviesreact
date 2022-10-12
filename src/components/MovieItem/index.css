@@ -1,0 +1,80 @@
+.movieitembgcontainer {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.movieitemmainheadding {
+  color: #ffffff;
+}
+
+.genere {
+  color: #94a3b8;
+  font-family: Roboto;
+}
+
+.listofgener {
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.availabele {
+  color: #94a3b8;
+  font-family: Roboto;
+}
+
+.listofavailable {
+  color: #ffffff;
+  font-family: Roboto;
+  list-style-type: none;
+}
+
+.similar-movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.similarmovie {
+  margin: 5px;
+}
+
+.genre-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.moremovies {
+  height: 170px;
+  width: 255px;
+  left: 166px;
+  top: 523px;
+  border-radius: 8px;
+}
+
+.overview {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+@media screen and (max-height: 768px) {
+  .moremovies {
+    height: 64px;
+    width: 90px;
+    left: 32px;
+    top: 692px;
+    border-radius: 8px;
+  }
+}
+.movitime {
+  display: flex;
+  flex-direction: row;
+
+  padding: 15px;
+  color: #ffffff;
+}

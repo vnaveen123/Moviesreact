@@ -1,0 +1,21 @@
+.slick-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.logo-image {
+  height: 170px;
+  width: 254px;
+  left: 166px;
+  top: 708px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-image {
+    width: 90px;
+    height: 64px;
+    border-radius: 8px;
+  }
+}
